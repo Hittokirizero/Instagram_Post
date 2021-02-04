@@ -1,0 +1,102 @@
+.LV1 {
+    background-color: red;
+    position: absolute;
+    width: 600px;
+    height: auto;
+    align-content: center;
+    margin: auto auto auto auto;
+   }
+
+.LV2 {
+    position: relative;
+    width: 100%; 
+    height: auto; 
+    background-color: green;
+}
+
+.LV3_1 {
+
+    width: 100%; 
+    height: auto; 
+    background-color:yellow; 
+}
+.LV3_2 {
+    display: flex;
+    float: left;
+    width: 30px;
+    height: auto;
+    background-color:yellow; 
+}
+.LV3_3 {
+    display: flex;
+    position: relative;
+    width: 50%;
+    height: auto;
+    background-color:yellow; 
+}
+.LV3_4 {
+    display: flex;
+    position: relative;
+    float: right;
+    width: 50%;
+    height: auto;
+    background-color:yellow; 
+}
+.LV3_5 {
+    width: 100%; 
+    height: 150px; 
+    background-color:yellow; 
+}
+
+.LV4 {
+    position: relative;
+    width: 50%; 
+    height:50%;
+    background-color: purple; 
+}
+
+
+img {
+    width: 600px;
+    height: auto;
+    margin: 10px 0px 10px 0px;
+}
+
+.LV1 {
+    background-color: white;
+    position: absolute;
+    margin: 50px 100px 50px 100px;
+   }
+body {
+    background-color: black;
+}
+
+h1{
+    /*padding: auto;
+    /*font-family: 'Squada One', cursive;*/
+}
+p {
+    padding-left: 10px;
+    padding-right: 10px;
+    /*font-family: 'Gloria Hallelujah', cursive;*/
+}
+.ow_text{
+    overflow: scroll
+}
+input {
+    margin: 5px;
+    border: none;
+    border-bottom: gray solid 2px;
+    /*font-family: 'Paytone One', sans-serif;*/
+}
+
+.div_three {
+    position: relative;
+    width: 100%; 
+    float:left; 
+    height:25px;
+    text-align:center;
+}
+button {
+    /*font-family: 'Fugaz One', cursive;*/
+}

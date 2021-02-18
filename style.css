@@ -8,51 +8,44 @@
    }
 
 .LV2 {
-    position: relative;
-    width: 100%; 
+    display: table;
+    width: 100%;
     height: auto; 
-    background-color: green;
+
 }
-
+.LV2_2 {
+    display: table;
+    width: 100%;
+    height: 25px; 
+}
 .LV3_1 {
-
-    width: 100%; 
-    height: auto; 
-    background-color:yellow; 
+    width: 100%;
+    height: 25px; 
 }
 .LV3_2 {
-    display: flex;
-    float: left;
-    width: 30px;
-    height: auto;
-    background-color:yellow; 
+    display: table-cell;
 }
+
 .LV3_3 {
-    display: flex;
-    position: relative;
-    width: 50%;
-    height: auto;
-    background-color:yellow; 
+    display: table-cell;
+
 }
 .LV3_4 {
-    display: flex;
-    position: relative;
-    float: right;
-    width: 50%;
-    height: auto;
-    background-color:yellow; 
+    display: table-cell;    
+    width: auto;
+
 }
 .LV3_5 {
     width: 100%; 
     height: 150px; 
-    background-color:yellow; 
+
 }
 
 .LV4 {
     position: relative;
     width: 50%; 
     height:50%;
-    background-color: purple; 
+
 }
 
 
@@ -72,12 +65,12 @@ body {
 }
 
 h1{
+ 
     /*padding: auto;
     /*font-family: 'Squada One', cursive;*/
 }
 p {
-    padding-left: 10px;
-    padding-right: 10px;
+
     /*font-family: 'Gloria Hallelujah', cursive;*/
 }
 .ow_text{

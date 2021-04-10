@@ -1,5 +1,5 @@
 .LV1 {
-    background-color: red;
+
     position: absolute;
     width: 600px;
     height: auto;
@@ -11,41 +11,39 @@
     position: relative;
     width: 100%; 
     height: auto; 
-    background-color: green;
+
 }
 
 .LV3_1 {
 
     width: 100%; 
     height: auto; 
-    background-color:yellow; 
+
 }
 .LV3_2 {
     display: flex;
     float: left;
     width: 30px;
     height: auto;
-    background-color:yellow; 
+
 }
 .LV3_3 {
     display: flex;
     position: relative;
     width: 50%;
     height: auto;
-    background-color:yellow; 
+
 }
 .LV3_4 {
-    display: flex;
-    position: relative;
+
     float: right;
     width: 50%;
     height: auto;
-    background-color:yellow; 
 }
 .LV3_5 {
     width: 100%; 
     height: 150px; 
-    background-color:yellow; 
+
 }
 
 .LV4 {
@@ -99,4 +97,25 @@ input {
 }
 button {
     /*font-family: 'Fugaz One', cursive;*/
+}
+.wrap{
+    text-align:center
+}
+.left{
+    float: left;
+    display: flex;
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.right{
+    float: right;
+    display: flex;
+    position: relative;
+    padding-right: 20px;
+}
+.center{
+ 
+    margin:0 auto;
+   display:inline-block
 }
